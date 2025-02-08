@@ -3,9 +3,10 @@ public class ExceptionStack {
 
     public static int division(int x, int y){
         try {
+            System.out.println("Tentative de division ici");
             return x / y; 
         } catch (ArithmeticException e) {
-            System.out.println("Division par 0 ici");
+            System.out.println("Division par 0 là");
             
             e.printStackTrace();
             
