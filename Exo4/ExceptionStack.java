@@ -1,3 +1,4 @@
+package Exo4;
 public class ExceptionStack {
 
     public static int division(int x, int y){
